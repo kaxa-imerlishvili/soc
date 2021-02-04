@@ -59,6 +59,8 @@ class AuthenticationActivity : AppCompatActivity() {
             }
         }
 
+        register.setOnClickListener{}
+
     }
 
 

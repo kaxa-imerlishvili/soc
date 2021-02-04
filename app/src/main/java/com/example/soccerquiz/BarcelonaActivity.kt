@@ -14,11 +14,17 @@ class BarcelonaActivity : AppCompatActivity() {
         setContentView(R.layout.fragment_barcelona)
 
         ClubHistory = findViewById(R.id.barcelonaclubhistory)
-        ClubQuiz = findViewById(R.id.barcelonaclubhistory)
+        ClubQuiz = findViewById(R.id.barcelonaquiz)
 
         ClubHistory.setOnClickListener {
-            Intent(this, Barcelonaimages::class.java)
+            startActivity(Intent(this, Barcelonaimages::class.java))
         }
+
+        ClubQuiz.setOnClickListener {
+            startActivity(Intent(this, BarcaQuiz::class.java))
+        }
+
+
 
     }
 }

@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".MadridrecyclerActivity"></activity>
+        <activity android:name=".BarcaQuiz"></activity>
+        <activity android:name=".MadridrecyclerActivity" />
         <activity android:name=".Madridimages" />
         <activity android:name=".MadridActivity" />
         <activity android:name=".Barcelonaimages" />
